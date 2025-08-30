@@ -1,4 +1,14 @@
-name: Scrape Talk Locations
+- name: Commit changes
+  run: |
+    git config user.name "github-actions[bot]"
+    git config user.email "github-actions[bot]@users.noreply.github.com"
+    git add .
+    git commit -m "Automated update of talk locations" || echo "No changes to commit"
+    # 同步远程，使用 rebase 保留远程历史
+    git fetch origin master
+    git rebase origin/master || git rebase --abort
+    # 推送到远程
+    git push origin master
 
 on:
   push:
