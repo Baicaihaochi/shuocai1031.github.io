@@ -9,37 +9,37 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Your Name / Site Title"
+title                    : "Shuo Cai"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+name                     : &name "Shuo Cai"
+description              : &description "LLMs"
+url                      : https://shuocai1031.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "Baicaihaochi/shuocai1031.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  avatar           : "avatar.jpg"
+  name             : "Shuo Cai"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Shuo Cai (蔡硕) is a Master of Philosophy student in the Department of Computing at The Hong Kong Polytechnic University (PolyU), advised by Prof. Hongxia Yang. His research interests focus on efficient post-training of Large Language Models (LLMs). He is currently working on enhancing LLM reasoning capabilities in coding and mathematical tasks, with a focus on alignment, low resources, and scalable adaptation."
+  location         : "Hong Kong, China"
+  employer         : # URL
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "shuo1031.cai@connect.polyu.hk" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=VRlUiqQAAAAJ&hl=zh-CN"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : # URL
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
 
@@ -53,7 +53,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -77,6 +77,16 @@ author:
   xing             : # Username
   youtube          : # Username
   zhihu            : # Username
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/Baicaihaochi"
+    - label: "Google Scholar"
+      icon: "ai ai-google-scholar"
+      url: "https://scholar.google.com/citations?user=VRlUiqQAAAAJ&hl=zh-CN"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "shuo1031.cai@connect.polyu.hk"
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
